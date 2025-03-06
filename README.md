@@ -15,7 +15,6 @@ A cute **Kuromi-themed desktop clock widget** built with **Electron.js**.
 Clone the repository and install dependencies:
 
 ```sh
-git clone https://github.com/yourusername/clockwidget.git
 cd clockwidget
 npm install
 npm start
