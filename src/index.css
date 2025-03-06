@@ -1,0 +1,54 @@
+/*    Body Styles   */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../src/assets/bg_img.png'); /* Background Image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  -webkit-app-region: drag; /* By adding this, can make the entire body draggable */
+}
+
+
+/*    Clock Styles    */
+.clock {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.digit {
+  width: 25px;
+  height: auto;
+}
+.colon {
+  font-size: 40px;
+  color: #ff69b4;
+}
+
+
+/*  Decoration Styles  */
+.decor {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+#kuromiImg {
+  width: 50px;
+  height: auto;
+  animation: sway 2s infinite ease-in-out;
+}
+/* Animation */
+@keyframes sway {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+}
